@@ -9,19 +9,19 @@ Eng-lab contains grammar, spoken, fun activities and quizzes. User can evaluate 
 
 Technology stacked we  Used
 
- HTML
- CSS
- Bootstrap
- JavaScript
+ # HTML
+ # CSS
+ # Bootstrap
+ # JavaScript
 
 Team Members
 
- Archchaya Uthayakumar
- Patrick Emmanuel Thanistas
- Nirodha Weligama Gamage
- Umesha Roopasinghe
- Thimira Madusanka
- Lakmi Kotapolage
- Nuwanthi Rajapaksha
- Oshan Ediriweera
+Archchaya Uthayakumar <br>
+Patrick Emmanuel Thanistas<br>
+Nirodha Weligama Gamage<br>
+Umesha Roopasinghe<br>
+Thimira Madusanka<br>
+Lakmi Kotapolage<br>
+Nuwanthi Rajapaksha<br>
+Oshan Ediriweera<br>
 
