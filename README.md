@@ -9,10 +9,10 @@ Eng-lab contains grammar, spoken, fun activities and quizzes. User can evaluate 
 
 # Technology stacked we  Used
 
- # HTML
- # CSS
- # Bootstrap
- # JavaScript
+  HTML
+  CSS
+  Bootstrap
+  JavaScript
 
 # Team Members
 
