@@ -7,21 +7,21 @@ Eng-lab is a English Learning Platform to develop your English knowledge. This p
 Eng-lab contains grammar, spoken, fun activities and quizzes. User can evaluate their skills level after complising their tasks.
 
 
-Technology stacked we  Used
+# Technology stacked we  Used
 
- HTML
- CSS
- Bootstrap
- JavaScript
+  HTML
+  CSS
+  Bootstrap
+  JavaScript
 
-Team Members
+# Team Members
 
- Archchaya Uthayakumar
- Patrick Emmanuel Thanistas
- Nirodha Weligama Gamage
- Umesha Roopasinghe
- Thimira Madusanka
- Lakmi Kotapolage
- Nuwanthi Rajapaksha
- Oshan Ediriweera
+Archchaya Uthayakumar <br>
+Patrick Emmanuel Thanistas<br>
+Weligama Gamage Nirodha Lakmali<br>
+Umesha Roopasinghe<br>
+Thimira Madusanka<br>
+Lakmi Kotapolage<br>
+Nuwanthi Rajapaksha<br>
+Oshan Ediriweera<br>
 
