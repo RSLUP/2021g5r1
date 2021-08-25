@@ -18,7 +18,7 @@ Eng-lab contains grammar, spoken, fun activities and quizzes. User can evaluate 
 
 Archchaya Uthayakumar <br>
 Patrick Emmanuel Thanistas<br>
-Nirodha Lakmali<br>
+Weligama Gamage Nirodha Lakmali<br>
 Umesha Roopasinghe<br>
 Thimira Madusanka<br>
 Lakmi Kotapolage<br>
