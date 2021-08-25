@@ -11,7 +11,6 @@ Eng-lab contains grammar, spoken, fun activities and quizzes. User can evaluate 
 
   HTML
   CSS
-  Bootstrap
   JavaScript
 
 # Team Members
