@@ -5,16 +5,56 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="custom.css">
-    <script type="text/javascript" src="script.js"></script>
+    <link rel="stylesheet" href="fill_blank.css">
+    <script type="text/javascript" src="fill_blank.js"></script>
+    <script src="https://kit.fontawesome.com/90e489a80d.js" crossorigin="anonymous"></script>
     <title>Fill in the blanks</title>
 </head>
 
 <body>
     <!-- nav bar -->
+    <div class="wrapper">
+        <nav>
+            <input type="checkbox" id="show-search">
+            <input type="checkbox" id="show-menu">
+            <label for="show-menu" class="menu-icon"><i class="fas fa-bars"></i></label>
+            <div class="content">
+                <div class="logo"><a href="#">Learning Bee</a></div>
+                <ul class="links">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li>
+                        <a href="#" class="desktop-link">Courses</a>
+                        <input type="checkbox" id="show-features">
+                        <label for="show-features">Features</label>
+                        <ul>
+                            <li><a href="#">Writing</a></li>
+                            <li><a href="#">Grammar</a></li>
+                            <li><a href="#">Spoken</a></li>
+                            <li><a href="#">Listening</a></li>
+                            <li><a href="#">Reading</a></li>
+                            <li><a href="#">Learning site</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#" class="desktop-link">Contact Us</a>
+                        <input type="checkbox" id="show-services">
+                    </li>
+                    <li><a href="#">Feedback</a></li>
+                </ul>
+            </div>
+            <label for="show-search" class="search-icon"><i class="fas fa-search"></i></label>
+            <form action="#" class="search-box">
+                <input type="text" placeholder="Type Something to Search..." required>
+                <button type="submit" class="go-icon"><i class="fas fa-long-arrow-alt-right"></i></button>
+            </form>
+        </nav>
+    </div>
+
+    <!-- page content -->
     <div class="container">
         <h3>Fill in the blanks</h3>
-        <p><strong>Directions:</strong> Read the following sentences and choose the most appropriate word.</p>
+        <p id="dir"><strong>Directions:</strong> Read the following sentences and choose the most appropriate word.</p>
         <p class="qs">1. Four independent ________ testified to seeing him at the scene of the crime</p>
         <div class="answers">
             <p class="wrong" onclick="falseFunc()">(a) person</p>
@@ -41,7 +81,58 @@
             <button class="btn-2">Next</button>
         </div>
     </div>
+
+
     <!-- footer -->
+    <section class="footer" id="footer">
+        <div class="row">
+            <div class="col">
+                <img src="images/logo.png" class="logo">
+                <p>
+                    Are you ready to have a lot of learning English ? With these special, FREE Grammar lessons, spoken english, listening, Writing,
+                    you will be able to practice and improve your listening comprehension.
+                </p>
+            </div>
+            <div class="col">
+                <h3>Office <div class="underline"><span></span></div>
+                </h3>
+                <p>balangoda road</p>
+                <p>Pambahina</p>
+                <p>Belihul Oya</p>
+                <p class="email-id">Eng@gmail.com</p>
+                <h4>+947-0382382</h4>
+            </div>
+            <div class="col">
+                <h3>Quick links <div class="underline"><span></span></div>
+                </h3>
+                <ul>
+                    <li><a href="">Home</a></li>
+                    <li><a href="">About</a></li>
+                    <li><a href="">Courses</a></li>
+                    <li><a href="">contact us</a></li>
+                    <li><a href="">Feedback</a></li>
+                </ul>
+            </div>
+            <div class="col">
+                <h3>news <div class="underline"><span></span></div>
+                </h3>
+                <form>
+                    <i class="far fa-envelope"></i>
+                    <input type="email" placeholder="Enter your email id" required>
+                    <button type="submit"><i class="fas fa-arrow-right"></i></button>
+                </form>
+                <div class="social-icons">
+                    <i class="fab fa-facebook"></i>
+                    <i class="fab fa-twitter"></i>
+                    <i class="fab fa-whatsapp"></i>
+                    <i class="fab fa-pinterest"></i>
+                    <i class="fab fa-linkedin"></i>
+                </div>
+            </div>
+            <hr>
+            <p class="copyright">English Tutorials 2021 - All Rights Reserved</p>
+        </div>
+    </section>
 </body>
 
 </html>
