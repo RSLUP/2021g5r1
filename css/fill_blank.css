@@ -56,7 +56,7 @@ h3,
 
 /* nav bar */
 .wrapper {
-  background: #a38302de;
+  background: #2E4053 ;
   position: fixed;
   width: 100%;
   top: 0;
@@ -290,7 +290,7 @@ nav .content .links {
   width: 100%;
   padding-top: 6rem 0;
   bottom: 0;
-  background: linear-gradient(to right,#2d0b00, #a38302de );
+  background: linear-gradient(to right,#706b69, #2E4053  );
   color: #fff;
   padding: 100px 0 30px;
   border-top-left-radius: 125px;
