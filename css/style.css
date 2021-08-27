@@ -9,7 +9,7 @@
 
 /* nav bar */
 .wrapper {
-  background: #a38302de;
+  background: #2E4053 ;
   position: fixed;
   width: 100%;
   top: 0;
@@ -239,7 +239,7 @@ nav .content .links {
 /*home */
 .home{
     min-height: 70vh;
-    background: linear-gradient(#a38302de,white),url(../images/bg1.jpg) no-repeat;
+    background: linear-gradient(#2E4053 ,white),url(../images/bg1.jpg) no-repeat;
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
@@ -276,7 +276,7 @@ nav .content .links {
     height: 4rem;
     width: 20rem;
     border-radius: 5rem;
-    color: #a38302de;
+    color: #2E4053 ;
     font-size: 2rem;
     cursor: pointer;
     transition: .2s;
@@ -351,7 +351,7 @@ letter-spacing: .2rem;
   padding: 25px 25px;
 }
 .include .article h2{
-  color: #a38302de;
+  color: #2E4053 ;
   font-size: 22px;
   line-height: 1.5;
   letter-spacing: 1px;
@@ -368,10 +368,10 @@ letter-spacing: .2rem;
   text-decoration: none;
   display: inline-block;
   padding: 12px 35px;
-  background-color: #a38302de;
+  background-color: #2E4053 ;
   border-radius: 25px;
   color: #fff;
-  border: 1px solid #a38302de;
+  border: 1px solid #2E4053 ;
   letter-spacing: 1.5px;
   margin-top: 35px;
 }
@@ -454,7 +454,7 @@ letter-spacing: .2rem;
   top: 10px;
   right: 15px;
   font-size: 90px;
-  color: #a38302de;
+  color: #2E4053 ;
 }
 .container .slide-container .slide .user{
   display: flex;
@@ -543,7 +543,7 @@ letter-spacing: .2rem;
 .border{
   width: 160px;
   height: 5px;
-  background: #a38302de;
+  background: #2E4053 ;
   margin: 26px auto;
 }
 
@@ -573,7 +573,7 @@ letter-spacing: .2rem;
   margin: 20px 0;
 }
 .stars{
-  color: #a38302de;
+  color: #2E4053 ;
   margin-bottom: 20px;
 }
 
@@ -600,7 +600,7 @@ letter-spacing: .2rem;
   width: 100%;
   padding-top: 6rem 0;
   bottom: 0;
-  background: linear-gradient(to right,#2d0b00, #a38302de);
+  background: linear-gradient(to right,#706b69, #2E4053 );
   color: #fff;
   padding: 100px 0 30px;
   border-top-left-radius: 125px;
