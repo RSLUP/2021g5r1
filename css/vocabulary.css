@@ -207,7 +207,7 @@ box-sizing: border-box;
 .level{
 
   margin: 10px -5px;
-  padding-left: 400px;
+  padding-left: 370px;
 
 }
 
@@ -225,20 +225,22 @@ box-sizing: border-box;
 
  .card {
   
-  padding: 0px;
+  padding-bottom: 10px;
   text-align: center;
   background-color: #ffffff;
-  height: 300px;
   cursor: pointer;
   border-radius: 5pt;
   border: 1px;
 	border-color: #0094f0;
 	border-style: solid;
+  height: 350px;
+
 
 }
 
 .card:hover{
   box-shadow: 0px 0px 7px 7px #ddf2ff;
+  border: 0px;
 }
 
 .card img{
@@ -256,14 +258,29 @@ box-sizing: border-box;
   padding-left: 25px;
 }
 
+.lvl{
+  margin-top: 3px;
+  font-size: 11px;
+  background-color:#8cd4ff ;
+  color: #ffffff;
+  border-radius: 20pt;
+  padding: 5px;
+  display:inline-block;
+  float:left;
+  margin-left: 28px;
+  
+
+}
+
 .card h3{
   font-size: 13px;
   color: 	 #bfbfbf;
   text-align: left;
   padding-left: 25px;
-  padding-top: 10px;
+  padding-top: 20px;
   font-weight: 500;
   padding-bottom: 25px;
+
 }
 
  .btn{
@@ -276,8 +293,10 @@ box-sizing: border-box;
     font-size: 18px;
     margin: 4px 2px;
     cursor: pointer;
-    border-radius: 5pt;
+    border-radius: 8pt;
     font-weight: 700;
+    bottom: 5px;
+    
   
 }
 
@@ -329,6 +348,15 @@ box-sizing: border-box;
   /*description*/
   .description h1{
     line-height: 30pt;
+  }
+
+  /*level*/
+  .level .column{
+    width:30%;
+  }
+  .level{
+    padding-left: 250px;
+  
   }
  
 }
@@ -446,6 +474,60 @@ box-sizing: border-box;
   /*description*/
   .description h1{
     line-height: 20pt;
+  }
+   /*level*/
+   .level .column{
+    width:30%;
+  }
+  .level{
+    padding-left: 80px;
+  
+  }
+
+}
+
+@media screen and (max-width: 768px){
+
+  /*level*/
+  .level .column{
+    width:33%;
+  }
+  .level{
+    padding-left: 80px;
+  
+  }
+  .btn{
+    font-size: 13px;
+  }
+  .card h1{
+    font-size: 17px;
+  }
+  .card h3{
+    font-size: 13px;
+  }
+}
+
+@media screen and (max-width: 576px){
+
+  /*level*/
+  .level .column{
+    width:33%;
+  }
+  .level{
+    padding-left: 20px;
+  
+  }
+  .btn{
+    font-size: 13px;
+  }
+  .card h1{
+    font-size: 17px;
+  }
+  .card h3{
+    font-size: 13px;
+  }
+  .card img{
+    height: 100px;
   }
 }
 
