@@ -1,4 +1,4 @@
-@import url('@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400;700&family=Merienda:wght@700&display=swap');');
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap");
 
 * {
   margin: 0;
@@ -219,7 +219,7 @@ box-sizing: border-box;
 
 .level .column{
   float: left;
-  width: 23%;
+  width: 24%;
   padding: 0 10px;
 }
 
@@ -233,7 +233,7 @@ box-sizing: border-box;
   border: 1px;
 	border-color: #0094f0;
 	border-style: solid;
-  height: 350px;
+  height: 380px;
 
 
 }
@@ -255,7 +255,7 @@ box-sizing: border-box;
   color: #014b79;
   text-align: left;
   padding-top: 10px;
-  padding-left: 25px;
+  padding-left: 20px;
 }
 
 .lvl{
@@ -286,7 +286,6 @@ box-sizing: border-box;
  .btn{
     background-color: #ddf2ff; 
     border: none;
-    
     padding: 10px 20px 10px 20px;
     text-align: center;
     display: inline-block;
@@ -511,10 +510,12 @@ box-sizing: border-box;
 
   /*level*/
   .level .column{
-    width:33%;
+    width:100%;
+    padding-bottom: 50px;
   }
   .level{
-    padding-left: 20px;
+    padding-left: 150px;
+    padding-right: 150px;
   
   }
   .btn{
@@ -527,7 +528,7 @@ box-sizing: border-box;
     font-size: 13px;
   }
   .card img{
-    height: 100px;
+    height: 150px;
   }
 }
 
