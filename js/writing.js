@@ -3,7 +3,7 @@ document.getElementById('lesson1Text').style.display = "none";   //first lesson
 document.getElementById('lesson2Text').style.display = "none";   //second lesson
 document.getElementById('lesson3Text').style.display = "none";  //third lesson
 document.getElementById('lesson4Text').style.display = "none";  //fourth lesson
-//document.getElementById('lesson5Text').style.display = "none";  //five lesson
+document.getElementById('lesson5Text').style.display = "none";  //five lesson
 
 /*function for hide and show when clicked the button*/
 function showText(clickedBtnId){
