@@ -185,13 +185,13 @@
     .readingInfo {
         padding-top: 30PX;
         text-align: center;
-        display: unset;
+        display: inline-table;
     }
     .readingPara p {
         padding-left: 50px;
         padding-right: 50px;
     }
-    .readingPara .levels {
+    .readingPara .labels {
         padding-top: 30px;
         float: unset;
     }
