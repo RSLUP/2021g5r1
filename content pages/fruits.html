@@ -4,13 +4,13 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/spelling bee.css">
+    <link rel="stylesheet" href="css/fruits.css">
     <script src="https://kit.fontawesome.com/90e489a80d.js" crossorigin="anonymous"></script>
-    <title>Spelling bee</title>
+    <title>Fruits</title>
 </head>
 <body>
-    <!--nav bar-->
-    <div class="wrapper">
+     <!--nav bar-->
+     <div class="wrapper">
         <nav>
             <input type="checkbox" id="show-search">
             <input type="checkbox" id="show-menu">
@@ -53,120 +53,26 @@
         
     </div>
 
-    <!--heading-->
-
-    <div class="heading">
-        <h1>Explore the world of English vocabulary in a sound integrated guide. Touch or place your cursor over an object, word, or phrase to hear it pronounced aloud. Prove your vocabulary mastery by completing challenges.</h1>
-    </div>
-
-    <!--categories-->
-
-    <div class="categories">
-        <div class="column">
-            <a href="fruits.html">
-            <div class="card" style="background-color: #018c7c;">
-               <img src="images/fruit.jpg" alt="beginner">
-               <h1>Fruits</h1>
-            </div>
-            </a>
-        </div>
-
-        <div class="column">
-            <a href="#">
-            <div class="card" style="background-color: #8c3601;">
-               <img src="images/vegetables.jpg" alt="beginner">
-               <h1>Vegetables</h1>
-            </div>
-        </a>
-        </div>
-        <div class="column">
-            <a href="#">
-            <div class="card" style="background-color: #8c7c01;">
-               <img src="images/animals.jpg" alt="beginner">
-               <h1>Animals</h1>
-            </div>
-        </a>
-        </div>
-        <div class="column">
-            <a href="#">
-            <div class="card" style="background-color: #01578c;">
-               <img src="images/plants.jpg" alt="beginner">
-               <h1>Plants</h1>
-            </div>
-        </a>
-        </div>
-        <div class="column">
-            <a href="#">
-            <div class="card" style="background-color: #3d4950;">
-               <img src="images/vechiles.jpg" alt="beginner">
-               <h1>Vechiles</h1>
-            </div>
-        </div>
-
-        <div class="column">
-            <a href="#">
-            <div class="card" style="background-color: #018c7c;">
-               <img src="images/birds.jpg" alt="beginner">
-               <h1>Birds</h1>
-            </div>
-            </a>
-        </div>
-
-        <div class="column">
-            <a href="#">
-            <div class="card" style="background-color: #8c3601;">
-               <img src="images/spellingbee.jpg" alt="beginner">
-               <h1>Vegetables</h1>
-            </div>
-            </a>
-        </div>
-        <div class="column">
-            <a href="#">
-            <div class="card" style="background-color: #8c7c01;">
-               <img src="images/spellingbee.jpg" alt="beginner">
-               <h1>Animals</h1>
-            </div>
-            </a>
-        </div>
-        <div class="column">
-            <a href="#">
-            <div class="card" style="background-color: #01578c;">
-               <img src="images/spellingbee.jpg" alt="beginner">
-               <h1>Plants</h1>
-            </div>
-            </a>
-        </div>
-        <div class="column">
-            <a href="#">
-            <div class="card" style="background-color: #3d4950;">
-               <img src="images/spellingbee.jpg" alt="beginner">
-               <h1>Vechiles</h1>
-            </div>
-            </a>
-        </div>
-
-        <div class="column">
-            <a href="#">
-            <div class="card" style="background-color: #3d4950;">
-               <img src="images/vechiles.jpg" alt="beginner">
-               <h1>Vechiles</h1>
-            </div>
-        </div>
-
-        <div class="column">
-            <a href="#">
-            <div class="card" style="background-color: #018c7c;">
-               <img src="images/birds.jpg" alt="beginner">
-               <h1>Birds</h1>
-            </div>
-            </a>
-        </div>
-
-    </div>
-
-
-
     
+    <!--images-->
+    <div class="all-img">
+        <img src="images/mango.png" class="images-content" onmouseover="pronus(1)" alt="mango" id="icon">
+    
+        <img src="images/apple.png" class="images-content" onmouseover="pronus(2)" alt="apple" id="icon">
+        <img src="images/pineapple.png" class="images-content" onmouseover="pronus(3)" alt="pineapple" id="icon">
+        <img src="images/orange.png" class="images-content" onmouseover="pronus(4)" alt="orange" id="icon">
+        <img src="images/guava.png" class="images-content" onmouseover="pronus(5)" alt="guava" id="icon">
+        <img src="images/grape.png" class="images-content" onmouseover="pronus(6)" alt="grape" id="icon">
+        <img src="images/watermelon.png" class="images-content" onmouseover="pronus(7)" alt="watermelon" id="icon">
+    </div>
+
+</div>
+     <audio id="mysong">
+         <source src="#" type="audio/mp3" ></source>
+         </audio>
+    
+
+
       <!-- footer -->
       <section class="footer" id="footer">
         <div class="row">
@@ -217,5 +123,9 @@
             <p class="copyright">Learning Bee Tutorials 2021 - All Rights Reserved</p>
         </div>
     </section>
+
+    
 </body>
+<script src="js/fruit.js"></script>
+<script src="js/audio.js"></script>
 </html>
