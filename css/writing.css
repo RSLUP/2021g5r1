@@ -1,0 +1,133 @@
+/* Writing Page Styles */
+.writing-container{
+    margin:10%;
+}
+/*Heading*/
+#writing-header{
+    margin:70px 0px 0px 0px;
+    background-image:url(../images/uWUahb.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    height: 200px;
+}
+
+#writing-header h1{
+    color:rgb(254, 254, 254);
+    padding:5%;
+    margin-left: 35%;
+    margin-top: 5%;
+    font-size:28px;
+}
+
+/*lessons container*/
+.lesson-container{
+    margin: 5px 5px;
+    padding:8px;
+}
+
+.lesson-one,.lesson-two,.lesson-three,.lesson-four,.lesson-five{
+    margin: 5px;
+    padding:1px;
+    min-height: 30px;
+}
+
+.lesson-header{
+    padding:5px;
+    color:rgb(254, 254, 254);
+    background-color:#a38302;
+}
+
+.lessonTextContainer{
+    background-color: #e4d96f;
+    padding: 3%;
+    border-bottom-left-radius:1%;
+    border-bottom-right-radius:1%;
+}
+
+.lesson-btn{
+    float: right; 
+    color:#fff;
+    margin-right: 2px;
+    content:"+";
+}
+
+.lessonHeader,.lesson-btn{
+    display: inline;
+}
+
+.lessonTextContainer ul li{
+  list-style-type: circle;
+  margin-left:2%;
+
+}
+
+.lessonTextContainer ol li{
+  list-style-type: upper-roman;
+  margin-left:5%;
+
+}
+
+/*Introduction */
+.writing-introduction{
+    margin:5%;
+}
+
+#writing-introduction-image{
+    border-radius: 20px;
+    float:left;
+
+}
+
+#writing-introduction-text{ 
+    float:right;
+    width: 80%;
+}
+
+#writing-introduction-text,#writing-introduction-image{
+    display: inline-block;
+
+}
+
+/*lesson container*/
+.lesson-container,.writing-introduction{
+    clear:both;
+}
+
+/*lesson 1 styles*/
+
+/*lesson 1 message*/
+
+.message{
+    border: 1px solid #000;
+    padding:5px; 
+    margin:3px;
+    background-color: #fff;
+}
+
+#structureMessage{
+    height:300px;
+    width:auto;
+}
+
+/*lesson 3 styles*/
+#structureNotice{
+    height:350px;
+    width:auto;
+}
+
+.notice{
+    border: 1px solid #000;
+    padding:5px; 
+    margin:3px;
+    background-color: #fff;
+}
+
+/*lesson 4 styles*/
+#lesson4Text span,#lesson4Text img{
+    display: inline-block; 
+}
+
+#lesson4Text span{
+    width:60%; 
+    float:left;
+}
