@@ -129,10 +129,11 @@
     
   }
   .content .links ul li a {
-    display: block;
+    display: inline-block;
     width: 100%;
     line-height: 30px;
     border-radius: 0px !important;
+    margin-right: 30px;
   }
   .content .links ul ul {
     position: absolute;

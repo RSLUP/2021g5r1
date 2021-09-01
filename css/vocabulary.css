@@ -1,8 +1,4 @@
-<<<<<<< HEAD
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap");
-=======
-@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400;700&family=Merienda:wght@700&display=swap');
->>>>>>> main
 
 * {
   margin: 0;
@@ -137,6 +133,7 @@ nav .content .links {
   width: 100%;
   line-height: 30px;
   border-radius: 0px !important;
+  margin-right: 30px;
 }
 .content .links ul ul {
   position: absolute;
@@ -270,7 +267,7 @@ box-sizing: border-box;
   border-radius: 20pt;
   padding: 5px;
   display:inline-block;
-  float:left;
+  float: left;
   margin-left: 28px;
   
 
