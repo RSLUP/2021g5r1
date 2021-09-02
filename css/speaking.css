@@ -129,7 +129,7 @@
   font-size: 1.3rem;
   display: grid;
   align-items: center;
-  grid-template-columns: 100% 81%;
+  grid-template-columns: 100% 20%;
   cursor: pointer;
 }
 .accordion-item-header .icon::before {
