@@ -66,6 +66,7 @@ quit_quiz.onclick = ()=>{
 }
 
 const next_btn = document.querySelector("footer .next_btn");
+const pre_btn = document.querySelector("footer .pre_btn");
 const bottom_ques_counter = document.querySelector("footer .total_que");
 
 // if Next Que button clicked
@@ -81,6 +82,26 @@ next_btn.onclick = ()=>{
         startTimerLine(widthValue); //calling startTimerLine function
         timeText.textContent = "Time Left"; //change the timeText to Time Left
         next_btn.classList.remove("show"); //hide the next button
+    }else{
+        clearInterval(counter); //clear counter
+        clearInterval(counterLine); //clear counterLine
+        showResult(); //calling showResult function
+    }
+}
+
+// if pre Que button clicked
+pre_btn.onclick = ()=>{
+    if(que_count > questions.length + 1){ //if question count is greater than total question length
+        que_count--; //decrement the que_count value
+        que_numb--; //decrement the que_numb value
+        showQuetions(que_count); //calling showQestions function
+        queCounter(que_numb); //passing que_numb value to queCounter
+        clearInterval(counter); //clear counter
+        clearInterval(counterLine); //clear counterLine
+        startTimer(timeValue); //calling startTimer function
+        startTimerLine(widthValue); //calling startTimerLine function
+        timeText.textContent = "Time Left"; //change the timeText to Time Left
+        pre_btn.classList.remove("show"); //hide the pre button
     }else{
         clearInterval(counter); //clear counter
         clearInterval(counterLine); //clear counterLine
@@ -189,8 +210,10 @@ function startTimer(time){
             for(i=0; i < allOptions; i++){
                 option_list.children[i].classList.add("disabled"); //once user select an option then disabled all options
             }
-            next_btn.classList.add("show"); //show the next button if user selected any option
+           
         }
+        next_btn.classList.add("show"); //show the next button if user selected any option
+        pre_btn.classList.add("show"); //show the previous button if user selected or unselected any option
     }
 }
 
