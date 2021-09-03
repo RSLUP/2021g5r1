@@ -7,6 +7,10 @@
   text-decoration: none;*/
 }
 
+body {
+    background: #f1f1f1;
+}
+
 /* nav bar */
 .wrapper {
   background: #01578c ;
@@ -176,7 +180,7 @@ nav .content .links {
     top: 70px;
     left: -100%;
     margin-left: 0;
-    max-width: 350px;
+    max-width: 300px;
     overflow-y: auto;
     padding-bottom: 100px;
     transition: all 0.3s ease;
@@ -241,6 +245,7 @@ nav .content .links {
     background-attachment: fixed;
     z-index: 0;
     overflow: hidden;
+    padding-top: 70px;
    
 }
 .home .content{
@@ -330,7 +335,7 @@ letter-spacing: .2rem;
   width: 180px;
   background-color: #222;
   border-radius: 6px;
-  position: relative;
+  /* position: relative; */
   display: block;
   margin: auto;
 }
@@ -389,6 +394,14 @@ letter-spacing: .2rem;
 }
 
 @media screen and (max-width:900px) {
+    .include {
+        display: inline-table;
+        padding-left: 10%;
+        padding-right: 10%;
+    }
+    .image-section {
+        padding-top: 20px;
+    }
   .content{
       grid-template-columns: repeat(2, 1fr);
   }
