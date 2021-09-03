@@ -297,7 +297,7 @@ letter-spacing: .2rem;
     bottom: -25rem; left: 50%;
     transform: translatex(-50%);
     border-top: 70vh solid #fff;
-    width: 120%;
+    width: 100%;
     border-radius: 50%;
     z-index: -1;
 }
