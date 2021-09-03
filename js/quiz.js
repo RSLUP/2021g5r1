@@ -89,25 +89,7 @@ next_btn.onclick = ()=>{
     }
 }
 
-// if pre Que button clicked
-pre_btn.onclick = ()=>{
-    if(que_count > questions.length + 1){ //if question count is greater than total question length
-        que_count--; //decrement the que_count value
-        que_numb--; //decrement the que_numb value
-        showQuetions(que_count); //calling showQestions function
-        queCounter(que_numb); //passing que_numb value to queCounter
-        clearInterval(counter); //clear counter
-        clearInterval(counterLine); //clear counterLine
-        startTimer(timeValue); //calling startTimer function
-        startTimerLine(widthValue); //calling startTimerLine function
-        timeText.textContent = "Time Left"; //change the timeText to Time Left
-        pre_btn.classList.remove("show"); //hide the pre button
-    }else{
-        clearInterval(counter); //clear counter
-        clearInterval(counterLine); //clear counterLine
-        showResult(); //calling showResult function
-    }
-}
+
 
 // getting questions and options from array
 function showQuetions(index){
@@ -213,7 +195,6 @@ function startTimer(time){
            
         }
         next_btn.classList.add("show"); //show the next button if user selected any option
-        pre_btn.classList.add("show"); //show the previous button if user selected or unselected any option
     }
 }
 
