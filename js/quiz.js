@@ -66,6 +66,7 @@ quit_quiz.onclick = ()=>{
 }
 
 const next_btn = document.querySelector("footer .next_btn");
+const pre_btn = document.querySelector("footer .pre_btn");
 const bottom_ques_counter = document.querySelector("footer .total_que");
 
 // if Next Que button clicked
@@ -87,6 +88,8 @@ next_btn.onclick = ()=>{
         showResult(); //calling showResult function
     }
 }
+
+
 
 // getting questions and options from array
 function showQuetions(index){
@@ -189,8 +192,9 @@ function startTimer(time){
             for(i=0; i < allOptions; i++){
                 option_list.children[i].classList.add("disabled"); //once user select an option then disabled all options
             }
-            next_btn.classList.add("show"); //show the next button if user selected any option
+           
         }
+        next_btn.classList.add("show"); //show the next button if user selected any option
     }
 }
 

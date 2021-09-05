@@ -1,0 +1,246 @@
+/* Banner */
+
+.banner {
+    margin-top: 70px;
+    background-size: cover;
+    background-position: center;
+    min-height: 30vh;
+}
+
+.banner h2 {
+    color: #fff;
+    font-size: 50px;
+    text-shadow: -2px 2px 2px #000;
+    text-align: center;
+    padding: 100px;
+}
+
+.text_banner {
+    padding-top: 50px;
+    margin-bottom: 50px;
+}
+
+.text_banner h2 {
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.readingInfo {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    grid-template-columns: 30% 47%;
+}
+
+.readingPara .labels {
+    padding-top: 30px;
+    float: right;
+}
+
+.redingImg img {
+    width: 375px;
+    height: 225px;
+}
+
+.readingPara .labels ul li {
+    display: inline-block;
+    padding-right: 10px;
+}
+
+.labelText {
+    background: #fff;
+    color: #a38302de;
+    font-size: 15px;
+    border: 3px solid #a38302de;
+    padding: 5px;
+    border-radius: 10px;
+    width: 100px;
+    text-align: center;
+}
+
+.lesson {
+    background: #fff;
+    color: #a38302de;
+    font-size: 16px;
+    padding: 10px;
+    border-radius: 10px;
+    width: 100px;
+    text-align: center;
+}
+
+
+/* Body */
+
+.Body_Container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.accordion {
+    width: 70%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+.accordion h2 {
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.accordion .contentBx {
+    margin: 10px 20px;
+}
+
+.accordion .contentBx .label {
+    padding: 10px;
+    background: #a38302de;
+    border-radius: 10px;
+    color: #fff;
+    cursor: pointer;
+    display: grid;
+    grid-template-columns: 15% 81% 8%;
+}
+
+.accordion .contentBx.active .label {
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+}
+
+.accordion .contentBx .icon::before {
+    content: '+';
+    font-size: 28px;
+    color: #fff;
+}
+
+.accordion .contentBx.active .icon::before {
+    content: '-';
+}
+
+.accordion .contentBx .content {
+    background: #e4d96f;
+    height: 0;
+    overflow: hidden;
+    transition: 0.5s;
+    overflow-y: auto;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    overflow-y: hidden;
+}
+
+.accordion .contentBx.active .height1 {
+    height: 275px;
+    padding: 10px;
+}
+
+.accordion .contentBx.active .height2 {
+    height: 425px;
+    padding: 10px;
+}
+
+.accordion .contentBx.active .height3 {
+    height: 500px;
+    padding: 10px;
+}
+
+.accordion .contentBx.active .height4 {
+    height: 1250px;
+    padding: 10px;
+}
+
+.accordion .contentBx.active .height5 {
+    height: 675px;
+    padding: 10px;
+}
+
+.accordion .contentBx.active .height6 {
+    height: 575px;
+    padding: 10px;
+}
+
+.accordion .contentBx.active .storySet {
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.accordion .contentBx .storySet {
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.accordion .contentBx .poemSet {
+    justify-content: center;
+    align-items: center;
+    display: grid;
+    grid-template-columns: 45% 45%;
+}
+
+.accordion .contentBx .content .poemImg {
+    width: 450px;
+    height: 250px;
+    border-radius: 10px;
+}
+
+@media screen and (max-width: 1280px) {
+    .readingInfo {
+        padding-top: 30PX;
+        text-align: center;
+        display: inline-table;
+    }
+    .readingPara p {
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+    .readingPara .labels {
+        padding-top: 30px;
+        float: unset;
+    }
+    .redingImg img {
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    .accordion .contentBx .label {
+        grid-template-columns: 20% 75% 8%;
+    }
+    .accordion .contentBx.active .content {
+        overflow-y: visible;
+    }
+}
+
+@media screen and (max-width: 1400px) {
+    .accordion .contentBx.active .content {
+        overflow-y: visible;
+    }
+    .accordion .contentBx.active .poemSet {
+        padding-top: 30PX;
+        text-align: center;
+        display: block;
+    }
+    .accordion .contentBx.active .content .poemImg {
+        margin-left: 15%;
+    }
+}
+
+@media screen and (max-width: 980px) {
+    .accordion .contentBx .label {
+        grid-template-columns: 38% 55% 8%;
+    }
+    .accordion .contentBx.active .content .poemImg {
+        padding-top: 20px;
+        width: 350px;
+        height: 250px;
+        border-radius: 10px;
+    }
+    .accordion .contentBx.active .content .poemImg {
+        margin-left: 0%;
+    }
+    .accordion .contentBx .label {
+        font-size: 13px;
+    }
+}
+
+@media screen and (max-width: 570px) {
+    .accordion {
+        width: 90%;
+    }
+}

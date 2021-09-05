@@ -6,57 +6,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Quiz </title>
     <link rel="stylesheet" href="../css/quiz.css">
-    <link rel="stylesheet" href="../css/style.css">
+   
     <!-- FontAweome CDN Link for Icons -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
 </head>
 <body>
-    <div class="wrapper">
-        <nav>
-            <input type="checkbox" id="show-search">
-            <input type="checkbox" id="show-menu">
-            <label for="show-menu" class="menu-icon"><i class="fas fa-bars"></i></label>
-            <div class="content">
-                <div class="logo"><a href="#">Learning Bee</a></div>
-                <ul class="links">
-                    <li><a href="#">Home</a></li>
-                    <li>
-                        <a href="#" class="desktop-link">Skills</a>
-                        <input type="checkbox" id="show-features">
-                        <label for="show-features">Skills</label>
-                        <ul>
-                            <li><a href="#">Writing</a></li>
-                            <li><a href="#">Speaking</a></li>
-                            <li><a href="#">Listening</a></li>
-                            <li><a href="#">Reading</a></li>
-                            
-                        </ul>
-                    </li>
-                   
-                    <li><a href="content pages/task_page.html">Practices</a></li>
-                    <li>
-                        <a href="#" class="desktop-link">Fun activities</a>
-                        <input type="checkbox" id="show-features">
-                        <label for="show-features">Fun activities</label>
-                        <ul>
-                            <li><a href="#">Game 1</a></li>
-                            <li><a href="#">Game 2</a></li>
-                        </ul>
-                        </li>
-                        <li>
-                            <a href="#" class="desktop-link">Contact Us</a>
-                            <input type="checkbox" id="show-services">
-                        </li>
-                        </ul>
-            </div>
-           
-        </nav>
-        </div>
-        
-    </div>
-
-
-
     <!-- start Quiz button -->
     <div class="start_btn"><button>Start Quiz</button></div>
 
@@ -71,7 +25,7 @@
             <div class="info">5. You'll get points on the basis of your correct answers.</div>
         </div>
         <div class="buttons">
-            <button class="quit">Exit Quiz</button>
+            <button class="quit"><a href="../content pages/task_page.html">Exit Quiz</a></button>
             <button class="restart">Continue</button>
         </div>
     </div>
@@ -115,12 +69,12 @@
         </div>
         <div class="buttons">
             <button class="restart">Replay Quiz</button>
-            <button class="quit">Quit Quiz</button>
+            <button class="quit"><a href="../content pages/task_page.html">Quit Quiz</a></button>
         </div>
     </div>
 
     <!-- Inside this JavaScript file I've inserted Questions and Options only -->
-    <script src="../js/quiz1_que.js"></script>
+    <script src="../js/preposition_quiz.js"></script>
 
     <!-- Inside this JavaScript file I've coded all Quiz Codes -->
     <script src="../js/quiz.js"></script>
