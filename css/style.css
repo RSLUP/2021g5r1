@@ -39,7 +39,7 @@ nav .content {
   align-items: center;
 }
 nav .content .links {
-  padding-left: 180px;
+  padding-left: 140px;
   margin-left: 0px;
   display: flex;
 }
@@ -73,7 +73,7 @@ nav .content .links {
   content: "";
   position: absolute;
   background-color: #ffffff;
-  width: 0%;
+  width: 0;
   bottom: 10px;
 }
 .content .links li label {
@@ -88,6 +88,18 @@ nav .content .links {
 .content .links li a:hover::before{
   width: 100%;
 }
+
+.content .links li .active::before{
+  transition: 300ms;
+  height: 5px;
+  content: "";
+  position: absolute;
+  background-color: #ffffff;
+  bottom: 10px;
+  width: 100%;
+}
+
+
 .wrapper .menu-icon {
   color: #fff;
   font-size: 18px;
@@ -116,6 +128,7 @@ nav .content .links {
   z-index: -1;
   opacity: 0;
   visibility: hidden;
+  padding-right: 20px;
 }
 .content .links li:hover > ul {
   top: 70px;
@@ -125,7 +138,7 @@ nav .content .links {
   width: auto;
 
 }
-.content .links ul li a {
+.content .links ul li a { 
   display: block;
   width: 100%;
   line-height: 30px;
@@ -151,11 +164,14 @@ nav .content .links {
     max-width: 100%;
     padding: 0 20px;
   }
+
+ 
   nav .content .links {
-    margin-left: 30px;
+   
+    padding-left: 0px;
   }
-  .content .links li a {
-    padding: 8px 13px;
+  .content .links li  {
+    padding-left: 18px;
   }
   .wrapper .search-box {
     max-width: calc(100% - 100px);
@@ -191,6 +207,7 @@ nav .content .links {
   }
   .content .links li {
     margin: 15px 20px;
+    
   }
   .content .links li a,
   .content .links li label {
@@ -671,7 +688,7 @@ letter-spacing: .2rem;
   width: 100%;
   padding-top: 6rem 0;
   bottom: 0;
-  background: linear-gradient(to right,#706b69, #2E4053 );
+  background: linear-gradient(to right,#706b69, #01578c );
   color: #fff;
   padding: 100px 0 30px;
   border-top-left-radius: 125px;
