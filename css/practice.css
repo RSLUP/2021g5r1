@@ -22,6 +22,7 @@ body {
 }
 .cardImg {
   width: 100%;
+  border-radius: 8px;
 }
 .course-duration,
 .course-duration-text {
@@ -58,7 +59,7 @@ body {
   border-radius: 10px;
   text-align: center;
   margin: auto;
-  margin-top: 20px;
+  margin-top: 40px;
 }
 .pracBtn > a {
   color: #014b79;
