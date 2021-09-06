@@ -106,3 +106,81 @@ let allFruits=[
 
 
 ];
+
+let allVegetables=[
+    {
+        id:1,
+        name:"Beetroot",
+        source: "https://dictionary.cambridge.org/media/english/uk_pron/u/ukb/ukbee/ukbeer_006.mp3",
+    },
+    {
+        id:2,
+        name:"Cabbage",
+        source:"https://dictionary.cambridge.org/media/english/us_pron/c/cab/cabba/cabbage.mp3",
+    },
+    {
+        id:3,
+        name:"Capsicum",
+        source:"https://dictionary.cambridge.org/media/english/us_pron/u/usc/uscan/uscanoo021.mp3" ,
+    },
+    {
+        id:4,
+        name:"Carrot",
+        source:"https://dictionary.cambridge.org/media/english/uk_pron/u/ukc/ukcar/ukcarap002.mp3",
+    },
+    {
+        id:5,
+        name:"Cucumber",
+        source:"https://dictionary.cambridge.org/media/english/us_pron/c/cuc/cucum/cucumber.mp3" ,
+    },
+    {
+        id:6,
+        name:"Eggplant",
+        source:"https://dictionary.cambridge.org/media/english/uk_pron/u/uke/ukeff/ukeffor011.mp3",
+    },
+    {
+        id:7,
+        name:"Garlic ",
+        source:"https://dictionary.cambridge.org/media/english/uk_pron/u/ukg/ukgan/ukganja028.mp3",
+    },
+    {
+        id:8,
+        name:"Ginger",
+        source: "https://dictionary.cambridge.org/media/english/uk_pron/u/ukg/ukgig/ukgigan021.mp3",
+    },
+    {
+        id:9,
+        name:"Mushroom",
+        source:"https://dictionary.cambridge.org/media/english/us_pron/m/mus/mushr/mushroom.mp3" ,
+    },
+    {
+        id:10,
+        name:"Pumpkins",
+        source:"https://dictionary.cambridge.org/media/english/uk_pron/u/ukp/ukpum/ukpumme004.mp3",
+    },
+    {
+        id:11,
+        name:"Onion",
+        source:"https://dictionary.cambridge.org/media/english/uk_pron/u/uko/ukomn/ukomniv012.mp3",
+    },
+    {
+        id:12,
+        name:"Soy bean",
+        source:"https://dictionary.cambridge.org/media/english/us_pron/c/cdo/cdo03/cdo0318ussoyb4645.mp3",
+    },
+    {
+        id:13,
+        name:"Broccoli",
+        source:"https://dictionary.cambridge.org/media/english/uk_pron/u/ukb/ukbri/ukbrit_024.mp3",
+    },
+    {
+        id:14,
+        name:"Asparagus",
+        source:"https://dictionary.cambridge.org/media/english/uk_pron/u/uka/ukasi/ukaside008.mp3",
+    },
+    {
+        id:15,
+        name:"Corn",
+        source:"https://dictionary.cambridge.org/media/english/uk_pron/u/ukc/ukcor/ukcoran024.mp3",
+    },
+];
