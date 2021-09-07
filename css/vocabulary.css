@@ -19,10 +19,9 @@
   position: fixed;
   width: 100%;
   top: 0;
-  
+  z-index: 2;
 }
 .wrapper nav {
-  
   position:static;
   display: flex;
   max-width: calc(100% - 200px);
@@ -37,12 +36,12 @@
 
 }
 nav .content {
-  
+
   display: flex;
   align-items: center;
 }
 nav .content .links {
-  padding-left: 180px;
+  padding-left: 140px;
   margin-left: 0px;
   display: flex;
 }
@@ -76,7 +75,7 @@ nav .content .links {
   content: "";
   position: absolute;
   background-color: #ffffff;
-  width: 0%;
+  width: 0;
   bottom: 10px;
 }
 .content .links li label {
@@ -91,6 +90,18 @@ nav .content .links {
 .content .links li a:hover::before{
   width: 100%;
 }
+
+.content .links li .active::before{
+  transition: 300ms;
+  height: 5px;
+  content: "";
+  position: absolute;
+  background-color: #ffffff;
+  bottom: 10px;
+  width: 100%;
+}
+
+
 .wrapper .menu-icon {
   color: #fff;
   font-size: 18px;
@@ -119,6 +130,7 @@ nav .content .links {
   z-index: -1;
   opacity: 0;
   visibility: hidden;
+  padding-right: 20px;
 }
 .content .links li:hover > ul {
   top: 70px;
@@ -126,14 +138,13 @@ nav .content .links {
   visibility: visible;
   transition: all 0.3s ease;
   width: auto;
-  
+
 }
-.content .links ul li a {
+.content .links ul li a { 
   display: block;
   width: 100%;
   line-height: 30px;
   border-radius: 0px !important;
-  margin-right: 30px;
 }
 .content .links ul ul {
   position: absolute;
@@ -146,7 +157,6 @@ nav .content .links {
 .content .links ul li:hover ul {
   top: 0;
 }
-
 
 
 
