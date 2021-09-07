@@ -104,6 +104,9 @@
     float: right;
 }
 
+#beginnerl,#freel,#lessonsl{
+    display:inline;
+}
 
 /*lesson container*/
 .lesson-container,.writing-introduction{
