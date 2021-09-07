@@ -108,7 +108,7 @@
     float: right;
 }
 
-#beginnerl,#freel,#lessonsl{
+.labels #beginnerl,#freel,#lessonsl{
     display:inline;
 }
 
