@@ -99,6 +99,11 @@
     text-align: center;
 }
 
+.labels {
+    padding-top: 30px;
+    float: right;
+}
+
 
 /*lesson container*/
 .lesson-container,.writing-introduction{
