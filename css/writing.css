@@ -31,7 +31,7 @@
 }
 
 .lesson-header{
-    padding:1%;
+    padding:0.5%;
     color:rgb(254, 254, 254);
     background-color:#a38302;
     border-radius:3%;
@@ -110,6 +110,10 @@
 .labels {
     padding-top: 30px;
     float: right;
+}
+
+#beginnerl,#freel,#lessonsl{
+    display:inline;
 }
 
 /*lesson container*/
