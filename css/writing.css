@@ -60,7 +60,8 @@
 }
 
 .lessonHeader{
-    border-radius:2%;
+    border-radius:1%;
+    margin-left:5px;
 }
 
 .lessonTextContainer ul li{
