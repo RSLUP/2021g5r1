@@ -27,14 +27,14 @@
 
 .lesson-one,.lesson-two,.lesson-three,.lesson-four,.lesson-five{
     margin: 3%;
-    border-radius:1%;
+    border-radius:2%;
 }
 
 .lesson-header{
     padding:2%;
     color:rgb(254, 254, 254);
     background-color:#a38302de;
-    border-radius:1%;
+    border-radius:2%;
 }
 
 .lessonTextContainer{
@@ -55,7 +55,7 @@
     cursor:pointer;
 }
 
-.lessonHeader,.lesson-btn{
+.lessonHeader,.lesson-btn,.lesson-number{
     display: inline;
 }
 
@@ -76,7 +76,7 @@
 }
 
 .lesson-number{
-    color:#a38302de;
+    color:#a38302;
     background-color:#fff;
     width:100px;
     border-radius:5px;
