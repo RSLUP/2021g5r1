@@ -75,6 +75,13 @@
 
 }
 
+.lesson-number{
+    color:#a38302de;
+    background-color:#fff;
+    width:100px;
+    border-radius:5px;
+}
+
 /*Introduction */
 .writing-introduction{
     margin:3%;
