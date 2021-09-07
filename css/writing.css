@@ -30,10 +30,10 @@
 }
 
 .lesson-header{
-    padding:1%;
+    padding:3%;
     color:rgb(254, 254, 254);
     background-color:#a38302;
-    border-radius:8px;
+    border-radius:5px;
 }
 
 .lessonTextContainer{
@@ -56,6 +56,10 @@
 
 .lessonHeader,.lesson-btn{
     display: inline;
+}
+
+.lessonHeader{
+    border-radius:5px;
 }
 
 .lessonTextContainer ul li{
@@ -103,8 +107,8 @@
 }
 
 #beginnerl,#freel,#lessonsl{
-    display:inline-block;
-    width:30%;
+    display:inline;
+
 }
 
 .labels {
