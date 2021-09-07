@@ -30,10 +30,10 @@
 }
 
 .lesson-header{
-    padding:5%;
+    padding:3%;
     color:rgb(254, 254, 254);
     background-color:#a38302;
-    border-radius:3%;
+    border-radius:1%;
 }
 
 .lessonTextContainer{
