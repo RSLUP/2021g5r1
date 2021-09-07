@@ -103,7 +103,8 @@
     border: 3px solid #a38302de;
     padding: 5px;
     border-radius: 10px;
-    width: 100px;
+    min-width: 100px;
+    width:100px;
     text-align: center;
 }
 
