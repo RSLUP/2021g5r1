@@ -271,7 +271,7 @@ nav .content .links {
     align-items: center;
     justify-content: center;
     flex-flow: column;
-    padding-top: 10rem;
+    padding-top: 4rem;
     padding-bottom: 5rem;
     text-align: center;
 
@@ -288,7 +288,7 @@ nav .content .links {
 .home .content p{
     font-size: 2rem;
     color: #eee;
-    padding: 1rem 25rem;
+    padding: 1rem 25rem 3rem;
 }
 
 .home .content button{
