@@ -33,7 +33,7 @@
     padding:5%;
     color:rgb(254, 254, 254);
     background-color:#a38302;
-    border-radius:5%;
+    border-radius:3%;
 }
 
 .lessonTextContainer{
@@ -96,6 +96,7 @@
     border-radius: 10px;
     width: 100px;
     text-align: center;
+    display:inline-block;
 }
 
 .labels {
