@@ -50,6 +50,10 @@
     content:"+";
 }
 
+.lesson-btn:hover{
+    cursor:pointer;
+}
+
 .lessonHeader,.lesson-btn{
     display: inline;
 }
