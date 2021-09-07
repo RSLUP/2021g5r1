@@ -33,7 +33,7 @@
     padding:1%;
     color:rgb(254, 254, 254);
     background-color:#a38302;
-    border-radius:5%;
+    border-radius:8px;
 }
 
 .lessonTextContainer{
@@ -104,7 +104,7 @@
 
 #beginnerl,#freel,#lessonsl{
     display:inline-block;
-    width:100%;
+    width:30%;
 }
 
 .labels {
