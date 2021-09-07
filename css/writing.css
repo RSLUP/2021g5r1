@@ -30,7 +30,7 @@
 }
 
 .lesson-header{
-    padding:5px;
+    padding:3px;
     color:rgb(254, 254, 254);
     background-color:#a38302;
     border-radius:3px;
@@ -68,7 +68,7 @@
 
 /*Introduction */
 .writing-introduction{
-    margin:5%;
+    margin:3%;
 }
 
 #writing-introduction-image{
@@ -96,7 +96,7 @@
     border-radius: 10px;
     width: 100px;
     text-align: center;
-    display:inline;
+  
 }
 
 .labels {
