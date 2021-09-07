@@ -26,9 +26,7 @@
 }
 
 .lesson-one,.lesson-two,.lesson-three,.lesson-four,.lesson-five{
-    margin: 5px;
-    padding:1px;
-    min-height: 30px;
+    margin: 3%;
 }
 
 .lesson-header{
